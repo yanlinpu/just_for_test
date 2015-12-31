@@ -108,3 +108,7 @@ git checkout ad05a1b
 ```
 git submodule add https://github.com/jackmaney/githug-include-me ./githug-include-me
 ```
+#### 详情：
+
+- [git通关详解（一）](http://hanhan2611.blog.163.com/blog/static/2075771392014028625520/)
+- [git通关详解（二）](http://hanhan2611.blog.163.com/blog/static/20757713920140286649146/)

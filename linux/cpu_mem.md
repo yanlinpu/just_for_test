@@ -1,0 +1,3 @@
+- top
+- ps aux|head -1;ps aux|grep -v PID|sort -rn -k +3|head #按CPU消耗排序前十
+- ps aux|head -1;ps aux|grep -v PID|sort -rn -k +4|head #按内存消耗排序前十

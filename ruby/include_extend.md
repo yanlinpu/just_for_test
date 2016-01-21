@@ -26,6 +26,7 @@ class Person
 end
 p Person.verbal_object_id    #=>  "my object id is ......"
 
+# 添加实例方法和类方法
 # self.included -> extend(one module(ClassMethods) in this module(ExtendThroughInclude))
 # and the methods in ClassMethods are class_methods for which included ExtendThroughInclude(Person)
 module ExtendThroughInclude
@@ -49,6 +50,29 @@ class Person
 end
 p Person.new.instance_method  #=> "this is an instance of Person"
 p Person.class_method         #=> "this is a method on the Person class"
+
+class ABC
+end
+
+module Example
+  def self.included(base)
+    base.class_eval do
+      def example
+        "instance method"
+      end
+
+      def self.example
+        "class method"
+      end
+    end
+  end
+end
+
+ABC.include Example
+
+ABC.example  # "class method"
+
+ABC.new.example  #"instance method"
 
 module A
   def my_method

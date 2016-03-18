@@ -1,6 +1,6 @@
 [锚访问#user-content-#{title_name}jump](#user-content-jump)
 
-[百度title=test](http://www.baidu.com "test")
+[百度title=test](http://www.baidu.com "test"){:target="_blank"}
 
 ## 标记区块引用 使用类似 email 中用 > 的引用方式
 

@@ -1,4 +1,4 @@
-[锚访问"#user-content-#{title_name}"jump]("#user-content-jump")
+[锚访问#user-content-#{title_name}jump](#user-content-jump)
 
 [百度title=test](http://www.baidu.com "test")
 

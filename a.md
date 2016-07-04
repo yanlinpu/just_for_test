@@ -1,8 +1,8 @@
-- [模拟linux登录shell](#user-content-linux)
-- [yes/no返回不同的结构](#user-content-yn)
-- [a/b/c/d 四选一 有三次选错的机会](#user-content-abcd)
+- [模拟linux登录shell](#user-content-模拟linux登录shell)
+- [yes/no返回不同的结构](#user-content-yes/no返回不同的结构)
+- [a/b/c/d四选一并有三次选错的机会](#user-content-a/b/c/d四选一并有三次选错的机会)
 
-<a name="linux"><h2>模拟linux登录shell</h2></a>
+## 模拟linux登录shell
 
   ```
 #!/bin/bash
@@ -20,7 +20,7 @@ else
 fi
   ```
   
-<a name="yn"><h2>yes/no返回不同的结构</h2></a>
+## yes/no返回不同的结构
 
   ```
 #!/bin/bash
@@ -39,7 +39,7 @@ case $res in
 esac
   ```
   
-<a name="abcd"><h2>a/b/c/d 四选一 有三次选错的机会</h2></a>
+## a/b/c/d四选一并且有三次选错的机会
 
   ```
 #!/bin/bash                                                                                           

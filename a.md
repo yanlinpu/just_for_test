@@ -1,6 +1,6 @@
 - [模拟linux登录shell](#user-content-模拟linux登录shell)
-- [yes/no返回不同的结构](#user-content-yes/no返回不同的结构)
-- [a/b/c/d四选一并有三次选错的机会](#user-content-a/b/c/d四选一并有三次选错的机会)
+- [yes/no返回不同的结构](#user-content-yesno返回不同的结构)
+- [a/b/c/d四选一并有三次选错的机会](#user-content-abcd四选一并有三次选错的机会)
 
 ## 模拟linux登录shell
 
